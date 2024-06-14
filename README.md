@@ -12,14 +12,4 @@ Análise de um dataset de vinhos, com o objetivo de prever o tipo de vinho basea
 3. Regressão logística
 4. K-vizinhos
 
-O projeto possui a execução e explicação de etapas como tratamento dos dados, execução do modelo e visualização de dados que inclui:
-- [x] Verificação se existe algum dado faltante e valores constantes
-- [x] Verificação da correlação entre as variáveis
-- [x] Normalização dos dados através do StandardScaler
-- [x] Utilização de uma pontuação de referência
-- [x] Busca de hiper parâmetros em cada um dos modelos
-- [x] Diminuição da dimensionalidade dos dados através do PCA
-- [x] Visualização da fronteira de decisão de um KNN com 2 dimensões
-- [x] Visualização de features mais relevantes através de árvore de decisão
-- [x] Comparação dos modelos através de uma matriz de confusão
-- [x] Comparação dos modelos através da validação cruzada
+O projeto possui a execução e explicação de etapas como tratamento dos dados, execução do modelo e visualização de dados. Por fim, é realizado a comparação entre os modelos utilizando validação cruzada e matrizes de confusão.
