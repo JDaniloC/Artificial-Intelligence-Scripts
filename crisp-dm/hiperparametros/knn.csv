@@ -1,0 +1,26 @@
+param_weights,param_p,param_n_neighbors,param_metric,param_leaf_size,param_algorithm,params,mean_test_score,std_test_score,rank_test_score
+uniform,3,3,manhattan,30,brute,"{'weights': 'uniform', 'p': 3, 'n_neighbors': 3, 'metric': 'manhattan', 'leaf_size': 30, 'algorithm': 'brute'}",0.9999405116002379,0.00017846519928612636,1
+uniform,2,3,euclidean,20,kd_tree,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 3, 'metric': 'euclidean', 'leaf_size': 20, 'algorithm': 'kd_tree'}",0.9999405116002379,0.00017846519928612636,1
+distance,3,3,manhattan,30,kd_tree,"{'weights': 'distance', 'p': 3, 'n_neighbors': 3, 'metric': 'manhattan', 'leaf_size': 30, 'algorithm': 'kd_tree'}",0.9998810232004759,0.00023795359904816847,3
+distance,4,5,manhattan,40,ball_tree,"{'weights': 'distance', 'p': 4, 'n_neighbors': 5, 'metric': 'manhattan', 'leaf_size': 40, 'algorithm': 'ball_tree'}",0.9998810232004759,0.00023795359904816847,3
+distance,1,11,minkowski,40,brute,"{'weights': 'distance', 'p': 1, 'n_neighbors': 11, 'metric': 'minkowski', 'leaf_size': 40, 'algorithm': 'brute'}",0.9998810232004759,0.00023795359904816847,3
+uniform,2,5,minkowski,30,auto,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 5, 'metric': 'minkowski', 'leaf_size': 30, 'algorithm': 'auto'}",0.9998810232004759,0.00023795359904816847,3
+distance,2,9,manhattan,10,ball_tree,"{'weights': 'distance', 'p': 2, 'n_neighbors': 9, 'metric': 'manhattan', 'leaf_size': 10, 'algorithm': 'ball_tree'}",0.9998810232004759,0.00023795359904816847,3
+distance,1,5,manhattan,20,brute,"{'weights': 'distance', 'p': 1, 'n_neighbors': 5, 'metric': 'manhattan', 'leaf_size': 20, 'algorithm': 'brute'}",0.9998810232004759,0.00023795359904816847,3
+uniform,2,5,minkowski,40,ball_tree,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 5, 'metric': 'minkowski', 'leaf_size': 40, 'algorithm': 'ball_tree'}",0.9998810232004759,0.00023795359904816847,3
+distance,4,5,euclidean,20,brute,"{'weights': 'distance', 'p': 4, 'n_neighbors': 5, 'metric': 'euclidean', 'leaf_size': 20, 'algorithm': 'brute'}",0.999821534800714,0.000272610094881351,10
+distance,2,11,euclidean,20,kd_tree,"{'weights': 'distance', 'p': 2, 'n_neighbors': 11, 'metric': 'euclidean', 'leaf_size': 20, 'algorithm': 'kd_tree'}",0.9998214993909521,0.00027266419951429093,11
+distance,3,7,minkowski,10,auto,"{'weights': 'distance', 'p': 3, 'n_neighbors': 7, 'metric': 'minkowski', 'leaf_size': 10, 'algorithm': 'auto'}",0.9998214993909521,0.00027266419951429093,11
+uniform,1,9,euclidean,40,ball_tree,"{'weights': 'uniform', 'p': 1, 'n_neighbors': 9, 'metric': 'euclidean', 'leaf_size': 40, 'algorithm': 'ball_tree'}",0.9997620109911901,0.0002914758341190358,13
+uniform,4,11,manhattan,40,ball_tree,"{'weights': 'uniform', 'p': 4, 'n_neighbors': 11, 'metric': 'manhattan', 'leaf_size': 40, 'algorithm': 'ball_tree'}",0.9997620109911901,0.0002914758341190358,13
+uniform,4,5,minkowski,10,kd_tree,"{'weights': 'uniform', 'p': 4, 'n_neighbors': 5, 'metric': 'minkowski', 'leaf_size': 10, 'algorithm': 'kd_tree'}",0.9997025580011897,0.0003990603172218503,15
+uniform,3,7,euclidean,30,brute,"{'weights': 'uniform', 'p': 3, 'n_neighbors': 7, 'metric': 'euclidean', 'leaf_size': 30, 'algorithm': 'brute'}",0.999702522591428,0.0002974774254317615,16
+uniform,3,7,euclidean,20,ball_tree,"{'weights': 'uniform', 'p': 3, 'n_neighbors': 7, 'metric': 'euclidean', 'leaf_size': 20, 'algorithm': 'ball_tree'}",0.999702522591428,0.0002974774254317615,16
+uniform,4,11,minkowski,30,kd_tree,"{'weights': 'uniform', 'p': 4, 'n_neighbors': 11, 'metric': 'minkowski', 'leaf_size': 30, 'algorithm': 'kd_tree'}",0.9993455921928558,0.0006756552304620186,18
+distance,4,5,chebyshev,30,ball_tree,"{'weights': 'distance', 'p': 4, 'n_neighbors': 5, 'metric': 'chebyshev', 'leaf_size': 30, 'algorithm': 'ball_tree'}",0.9986317668054729,0.0011302795954788798,19
+distance,1,5,chebyshev,10,ball_tree,"{'weights': 'distance', 'p': 1, 'n_neighbors': 5, 'metric': 'chebyshev', 'leaf_size': 10, 'algorithm': 'ball_tree'}",0.9986317668054729,0.0011302795954788798,19
+uniform,2,5,chebyshev,10,auto,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 5, 'metric': 'chebyshev', 'leaf_size': 10, 'algorithm': 'auto'}",0.9980963712076145,0.001023477128737957,21
+distance,2,7,chebyshev,30,auto,"{'weights': 'distance', 'p': 2, 'n_neighbors': 7, 'metric': 'chebyshev', 'leaf_size': 30, 'algorithm': 'auto'}",0.9976798107702329,0.0009387201868347637,22
+distance,4,9,chebyshev,30,brute,"{'weights': 'distance', 'p': 4, 'n_neighbors': 9, 'metric': 'chebyshev', 'leaf_size': 30, 'algorithm': 'brute'}",0.9964900073652305,0.001368164015904723,23
+distance,2,11,chebyshev,20,ball_tree,"{'weights': 'distance', 'p': 2, 'n_neighbors': 11, 'metric': 'chebyshev', 'leaf_size': 20, 'algorithm': 'ball_tree'}",0.9951812271607036,0.0011425027340876458,24
+uniform,2,9,chebyshev,30,auto,"{'weights': 'uniform', 'p': 2, 'n_neighbors': 9, 'metric': 'chebyshev', 'leaf_size': 30, 'algorithm': 'auto'}",0.9947648083623694,0.0013769991992939041,25

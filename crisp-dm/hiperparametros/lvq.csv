@@ -1,0 +1,6 @@
+param_glvq__solver_type,param_glvq__distance_type,param_glvq__activation_type,params,mean_test_score,std_test_score,rank_test_score
+lbfgs,squared-euclidean,identity,"{'glvq__solver_type': 'lbfgs', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'identity'}",0.8857755446021359,0.010640875377700499,1
+bgd,euclidean,soft+,"{'glvq__solver_type': 'bgd', 'glvq__distance_type': 'euclidean', 'glvq__activation_type': 'soft+'}",0.8559700858332626,0.018397520629455856,2
+sgd,euclidean,sigmoid,"{'glvq__solver_type': 'sgd', 'glvq__distance_type': 'euclidean', 'glvq__activation_type': 'sigmoid'}",0.8406217245970369,0.011019963210225732,3
+lbfgs,euclidean,sigmoid,"{'glvq__solver_type': 'lbfgs', 'glvq__distance_type': 'euclidean', 'glvq__activation_type': 'sigmoid'}",0.8383008271720348,0.00933483044834358,4
+bgd,euclidean,sigmoid,"{'glvq__solver_type': 'bgd', 'glvq__distance_type': 'euclidean', 'glvq__activation_type': 'sigmoid'}",0.8380614925922778,0.019319387071959487,5

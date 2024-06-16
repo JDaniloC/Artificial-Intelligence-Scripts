@@ -1,0 +1,6 @@
+param_glvq__solver_type,param_glvq__distance_type,param_glvq__activation_type,params,mean_test_score,std_test_score,rank_test_score
+bgd,squared-euclidean,swish,"{'glvq__solver_type': 'bgd', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'swish'}",0.9046345004390812,0.009654135840051396,1
+bfgs,squared-euclidean,swish,"{'glvq__solver_type': 'bfgs', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'swish'}",0.9045750828588426,0.009064108729511751,2
+bgd,squared-euclidean,soft+,"{'glvq__solver_type': 'bgd', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'soft+'}",0.8979711268802584,0.01040565694585901,3
+lbfgs,squared-euclidean,soft+,"{'glvq__solver_type': 'lbfgs', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'soft+'}",0.8976738265204951,0.009633109042406256,4
+bgd,squared-euclidean,identity,"{'glvq__solver_type': 'bgd', 'glvq__distance_type': 'squared-euclidean', 'glvq__activation_type': 'identity'}",0.8816709158380783,0.013166264949086652,5
