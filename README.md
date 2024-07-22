@@ -21,15 +21,29 @@ Implementa a metodologia CRISP-DM para prever se existe um movimento de bando de
 ## Responsible AI
 
 <p align="center">
-  <img alt="PDP in 2D" src="./responsible-ai/pdp_knn.png">
+  <img alt="PDP in 2D" src="./responsible-ai/assets/pdp_knn.png">
 </p>
 
-Explica Explainable AI na prática, detalhando o que é, os seus métodos e como implementá-los a partir dos dados sobre ataques cardíacos. Os seguintes métodos foram implementados:
+O primeiro script explica Explainable AI na prática, detalhando o que é, os seus métodos e como implementá-los a partir dos dados sobre ataques cardíacos. Os seguintes métodos foram implementados:
 1. Global Surrogate
 2. Feature Importance
 3. Partial Dependence Plot
 4. Individual Conditional Expectation
 5. Local Surrogate
+
+<p align="center">
+  <img alt="Movies by year" src="./responsible-ai/assets/movies.png">
+</p>
+
+
+O segundo script é a implementação simplificada de um modelo de sistema de recomendação calibrado e um protocolo de decisão para esses sistemas. Os seguintes algoritmos foram comparados:
+1. User based K Nearest Neighbors (User-KNN)
+2. Item based K Nearest Neighbors (Item-KNN)
+3. Slope One
+4. Non-negate Matrix Factorization
+5. Singular Value Decomposition (SVD)
+6. Singular Value Decomposition Plus us (SVD++)
+8. Co-Clustering
 
 ## Wine Analysis
 
